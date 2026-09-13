@@ -1,420 +1,143 @@
-<!DOCTYPE html>
-<html lang="ar" dir="rtl" class="dark scroll-smooth">
+<!doctype html>
+<html lang="ar" dir="rtl" class="scroll-smooth">
 <head>
-  <!-- Basic Setup -->
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  
-  <!-- Primary SEO Meta Tags -->
-  <title>خدمة إنشاء وتطوير المواقع الاحترافية | Larache XYZ</title>
-  <meta name="title" content="خدمة إنشاء وتطوير المواقع الاحترافية | Larache XYZ">
-  <meta name="description" content="نوفر خدمات تصميم وتطوير المواقع الإلكترونية والمتاجر المتكاملة بتقنيات حديثة وسريعة ومجهزة محلياً ودولياً للتصدر في محركات البحث SEO.">
-  <meta name="keywords" content="إنشاء مواقع, تصميم متجر إلكتروني, تطوير مواقع, Larache XYZ, SEO, تصميم متجاوب المغرب, إنشاء موقع ويب">
-  <meta name="author" content="عماد الدين لمراني">
-  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
-  <link rel="canonical" href="https://larache.xyz/">
-
-  <!-- Open Graph / Facebook Meta Tags -->
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://larache.xyz/">
-  <meta property="og:site_name" content="Larache XYZ">
-  <meta property="og:title" content="خدمة إنشاء وتطوير المواقع الاحترافية | Larache XYZ">
-  <meta property="og:description" content="حلول رقمية متكاملة لإنشاء المواقع والمتاجر الإلكترونية مع سرعة فائقة وأمان عالي.">
-  <meta property="og:image" content="https://larache.xyz/assets/og-image.jpg">
-  <meta property="og:image:width" content="1200">
-  <meta property="og:image:height" content="630">
-  <meta property="og:locale" content="ar_MA">
-
-  <!-- Twitter Meta Tags -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:url" content="https://larache.xyz/">
-  <meta name="twitter:title" content="خدمة إنشاء وتطوير المواقع الاحترافية | Larache XYZ">
-  <meta name="twitter:description" content="حلول رقمية متكاملة لإنشاء المواقع والمتاجر الإلكترونية مع سرعة فائقة وأمان عالي.">
-  <meta name="twitter:image" content="https://larache.xyz/assets/twitter-card.jpg">
-
-  <!-- Favicon & App Icons -->
-  <link rel="icon" type="image/x-icon" href="/favicon.ico">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-  <meta name="theme-color" content="#020617">
-
-  <!-- Structured Data (JSON-LD for Schema.org SEO) -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "ProfessionalService",
-    "name": "Larache XYZ",
-    "image": "https://larache.xyz/assets/og-image.jpg",
-    "url": "https://larache.xyz/",
-    "telephone": "+212783539816",
-    "email": "info@larache.xyz",
-    "priceRange": "$$",
-    "address": {
-      "@type": "PostalAddress",
-      "addressCountry": "MA"
-    },
-    "description": "تقديم خدمات تصميم وتطوير المواقع والمتاجر الإلكترونية الاحترافية والحلول البرمجية السريعة."
-  }
-  </script>
-
-  <!-- Tailwind CSS CDN -->
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script>
-    tailwind.config = {
-      darkMode: 'class',
-    }
-  </script>
-
-  <!-- Font Awesome Icons -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  <!-- Google Font: Cairo -->
-  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap" rel="stylesheet">
-  
-  <style>
-    body { font-family: 'Cairo', system-ui, -apple-system, sans-serif; }
-    .ltr-text {
-      direction: ltr;
-      display: inline-block;
-      unicode-bidi: embed;
-    }
-    .page-section { display: none; }
-    .page-section.active { display: block; }
-  </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#0f172a">
+<title>Larache XYZ | تصميم وتطوير المواقع والمتاجر</title>
+<meta name="description" content="Larache XYZ — تصميم وتطوير مواقع الشركات والمتاجر وصفحات الهبوط بسرعة عالية، تجربة متجاوبة، وتهيئة SEO احترافية.">
+<meta name="author" content="عماد الدين لمراني">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<link rel="canonical" href="https://larache.xyz/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Larache XYZ | حلول رقمية احترافية">
+<meta property="og:description" content="مواقع ومتاجر إلكترونية سريعة، متجاوبة ومهيأة لمحركات البحث.">
+<meta property="og:url" content="https://larache.xyz/">
+<meta property="og:image" content="https://larache.xyz/LARACHE%20LOGO.webp">
+<link rel="icon" href="LARACHE%20LOGO.webp">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+<script>tailwind.config={darkMode:'class',theme:{extend:{fontFamily:{cairo:['Cairo','sans-serif']}}}}</script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<style>
+body{font-family:Cairo,system-ui,sans-serif}
+.glass{background:rgba(255,255,255,.72);backdrop-filter:blur(14px)}
+.dark .glass{background:rgba(15,23,42,.78)}
+.reveal{opacity:0;transform:translateY(18px);transition:opacity .6s ease,transform .6s ease}
+.reveal.show{opacity:1;transform:none}
+.page{display:none}.page.active{display:block}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.reveal{opacity:1;transform:none;transition:none}}
+</style>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"ProfessionalService","name":"Larache XYZ","url":"https://larache.xyz/","image":"https://larache.xyz/LARACHE%20LOGO.webp","email":"info@larache.xyz","telephone":"+212783539816","areaServed":"MA","description":"خدمات تصميم وتطوير المواقع والمتاجر الإلكترونية والحلول الرقمية."}
+</script>
 </head>
-<body class="bg-slate-50 dark:bg-slate-950 text-slate-800 dark:text-slate-100 antialiased selection:bg-blue-600 selection:text-white min-h-screen flex flex-col justify-between transition-colors duration-300">
+<body class="bg-slate-50 text-slate-800 dark:bg-slate-950 dark:text-slate-100 transition-colors duration-300">
+<header class="sticky top-0 z-50 glass border-b border-slate-200/70 dark:border-slate-800">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
+<a href="#home" data-page="home" class="flex items-center gap-3 font-black text-xl" aria-label="Larache XYZ">
+<img src="LARACHE%20LOGO.webp" alt="Larache XYZ" class="w-10 h-10 rounded-xl object-cover">
+<span>LARACHE<span class="text-blue-500">.XYZ</span></span>
+</a>
+<nav id="nav" class="hidden md:flex items-center gap-6 text-sm font-bold">
+<a href="#home" data-page="home" class="hover:text-blue-500">الرئيسية</a>
+<a href="#services" data-page="services" class="hover:text-blue-500">الخدمات</a>
+<a href="#about" data-page="about" class="hover:text-blue-500">لماذا نحن</a>
+<a href="#faq" data-page="faq" class="hover:text-blue-500">الأسئلة</a>
+<a href="#contact" data-page="contact" class="hover:text-blue-500">اتصل بنا</a>
+</nav>
+<div class="flex items-center gap-2">
+<button id="theme" class="w-10 h-10 rounded-xl border border-slate-300 dark:border-slate-700" aria-label="تغيير المظهر"><i class="fa-solid fa-moon"></i></button>
+<button id="menu" class="md:hidden w-10 h-10 rounded-xl border border-slate-300 dark:border-slate-700" aria-label="فتح القائمة"><i class="fa-solid fa-bars"></i></button>
+</div>
+</div>
+<div id="mobileNav" class="hidden md:hidden border-t border-slate-200 dark:border-slate-800 p-4">
+<div class="grid gap-2 text-sm font-bold">
+<a href="#home" data-page="home" class="p-3 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800">الرئيسية</a>
+<a href="#services" data-page="services" class="p-3 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800">الخدمات</a>
+<a href="#about" data-page="about" class="p-3 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800">لماذا نحن</a>
+<a href="#faq" data-page="faq" class="p-3 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800">الأسئلة الشائعة</a>
+<a href="#contact" data-page="contact" class="p-3 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800">اتصل بنا</a>
+</div></div>
+</header>
 
-  <!-- Header / Navbar -->
-  <header class="sticky top-0 z-50 backdrop-blur-md bg-white/80 dark:bg-slate-900/90 border-b border-slate-200 dark:border-slate-800 transition-colors duration-300">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
-      <a href="#" onclick="showSection('home')" class="flex items-center gap-3 group">
-        <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-blue-600 to-indigo-500 flex items-center justify-center text-white font-bold text-xl shadow-lg shadow-blue-500/30 group-hover:scale-105 transition-transform">
-          L
-        </div>
-        <span class="text-2xl font-black tracking-wide text-slate-900 dark:text-white">LARACHE<span class="text-blue-500">.XYZ</span></span>
-      </a>
-      
-      <nav class="hidden md:flex items-center gap-6 text-sm font-semibold text-slate-600 dark:text-slate-300">
-        <button onclick="showSection('home')" class="hover:text-blue-500 dark:hover:text-blue-400 transition-colors py-2">الرئيسية</button>
-        <button onclick="showSection('services')" class="hover:text-blue-500 dark:hover:text-blue-400 transition-colors py-2">خدماتنا</button>
-        <button onclick="showSection('about')" class="hover:text-blue-500 dark:hover:text-blue-400 transition-colors py-2">من نحن</button>
-        <button onclick="showSection('contact')" class="hover:text-blue-500 dark:hover:text-blue-400 transition-colors py-2">اتصل بنا</button>
-      </nav>
+<main>
+<section id="home" class="page active">
+<div class="relative overflow-hidden">
+<div class="absolute inset-0 bg-gradient-to-br from-blue-100 via-slate-50 to-emerald-50 dark:from-blue-950/50 dark:via-slate-950 dark:to-emerald-950/30"></div>
+<div class="relative max-w-7xl mx-auto px-4 sm:px-6 py-20 md:py-28 text-center">
+<span class="reveal inline-flex items-center gap-2 px-4 py-2 rounded-full bg-blue-500/10 text-blue-600 dark:text-blue-400 font-bold text-sm"><i class="fa-solid fa-rocket"></i> حلول رقمية مصممة للنمو</span>
+<h1 class="reveal mt-6 text-4xl md:text-6xl font-black leading-tight">حوّل فكرتك إلى <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-emerald-500">تجربة رقمية</span> احترافية</h1>
+<p class="reveal max-w-3xl mx-auto mt-6 text-lg md:text-xl text-slate-600 dark:text-slate-300 leading-9">نصمم ونطور مواقع الشركات، المتاجر الإلكترونية وصفحات الهبوط بسرعة، أمان، توافق كامل مع الهواتف، وتجهيز تقني يساعدك على الظهور في محركات البحث.</p>
+<div class="reveal mt-9 flex flex-col sm:flex-row justify-center gap-4">
+<a href="https://wa.me/212783539816" target="_blank" rel="noopener noreferrer" class="px-7 py-4 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-black shadow-xl shadow-blue-600/20"><i class="fa-brands fa-whatsapp ml-2"></i>اطلب استشارة مجانية</a>
+<a href="#services" data-page="services" class="px-7 py-4 rounded-xl border border-slate-300 dark:border-slate-700 bg-white/70 dark:bg-slate-900/70 font-black">اكتشف خدماتنا</a>
+</div>
+<div class="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto mt-14">
+<div class="reveal p-5 rounded-2xl bg-white/70 dark:bg-slate-900/70 border border-slate-200 dark:border-slate-800"><b class="block text-2xl">01</b><span class="text-sm text-slate-500">تصميم مخصص</span></div>
+<div class="reveal p-5 rounded-2xl bg-white/70 dark:bg-slate-900/70 border border-slate-200 dark:border-slate-800"><b class="block text-2xl">02</b><span class="text-sm text-slate-500">Mobile First</span></div>
+<div class="reveal p-5 rounded-2xl bg-white/70 dark:bg-slate-900/70 border border-slate-200 dark:border-slate-800"><b class="block text-2xl">03</b><span class="text-sm text-slate-500">SEO تقني</span></div>
+<div class="reveal p-5 rounded-2xl bg-white/70 dark:bg-slate-900/70 border border-slate-200 dark:border-slate-800"><b class="block text-2xl">04</b><span class="text-sm text-slate-500">دعم وتطوير</span></div>
+</div></div></div>
+</section>
 
-      <!-- Theme Switcher Button -->
-      <div class="flex items-center gap-3">
-        <button id="themeToggleBtn" onclick="toggleTheme()" class="flex items-center gap-2 bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 text-slate-800 dark:text-slate-200 font-bold px-4 py-2 rounded-full border border-slate-300 dark:border-slate-700 transition-all shadow-sm">
-          <i id="themeIcon" class="fas fa-moon text-amber-500 dark:text-amber-400 text-base"></i>
-          <span id="themeText" class="text-sm font-semibold hidden sm:inline">النمط الليلي</span>
-        </button>
-      </div>
-    </div>
-  </header>
+<section id="services" class="page py-20">
+<div class="max-w-7xl mx-auto px-4 sm:px-6">
+<div class="text-center max-w-3xl mx-auto"><span class="text-blue-500 font-black">خدماتنا</span><h2 class="text-3xl md:text-5xl font-black mt-2">كل ما تحتاجه لبناء حضور رقمي قوي</h2><p class="mt-5 text-slate-600 dark:text-slate-400 leading-8">حلول قابلة للتوسع، مصممة حسب أهداف المشروع وليس مجرد قوالب جاهزة.</p></div>
+<div class="grid md:grid-cols-3 gap-6 mt-12">
+<article class="reveal p-7 rounded-3xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 hover:-translate-y-1 transition-transform"><div class="w-14 h-14 rounded-2xl bg-blue-500/10 text-blue-500 flex items-center justify-center text-2xl"><i class="fa-solid fa-bullhorn"></i></div><h3 class="text-xl font-black mt-6">صفحات الهبوط</h3><p class="mt-3 text-sm text-slate-600 dark:text-slate-400 leading-8">صفحات عالية التحويل للحملات والإعلانات، مع CTA واضح وربط واتساب ونماذج التواصل.</p><a href="#contact" data-page="contact" class="inline-block mt-6 text-blue-500 font-bold">ابدأ مشروعك ←</a></article><article class="reveal p-7 rounded-3xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 hover:-translate-y-1 transition-transform"><div class="w-14 h-14 rounded-2xl bg-blue-500/10 text-blue-500 flex items-center justify-center text-2xl"><i class="fa-solid fa-building"></i></div><h3 class="text-xl font-black mt-6">مواقع الشركات</h3><p class="mt-3 text-sm text-slate-600 dark:text-slate-400 leading-8">موقع مؤسسي سريع يعرض خدماتك وأعمالك وهويتك بشكل احترافي ويهيأ للنمو مستقبلاً.</p><a href="#contact" data-page="contact" class="inline-block mt-6 text-blue-500 font-bold">ابدأ مشروعك ←</a></article><article class="reveal p-7 rounded-3xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 hover:-translate-y-1 transition-transform"><div class="w-14 h-14 rounded-2xl bg-blue-500/10 text-blue-500 flex items-center justify-center text-2xl"><i class="fa-solid fa-cart-shopping"></i></div><h3 class="text-xl font-black mt-6">المتاجر الإلكترونية</h3><p class="mt-3 text-sm text-slate-600 dark:text-slate-400 leading-8">واجهة بيع متجاوبة مع تصنيفات وفلاتر وإدارة منتجات وطلبات، مع قابلية دمج الدفع والشحن.</p><a href="#contact" data-page="contact" class="inline-block mt-6 text-blue-500 font-bold">ابدأ مشروعك ←</a></article><article class="reveal p-7 rounded-3xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 hover:-translate-y-1 transition-transform"><div class="w-14 h-14 rounded-2xl bg-blue-500/10 text-blue-500 flex items-center justify-center text-2xl"><i class="fa-solid fa-magnifying-glass-chart"></i></div><h3 class="text-xl font-black mt-6">تهيئة SEO</h3><p class="mt-3 text-sm text-slate-600 dark:text-slate-400 leading-8">أساس تقني منظم يشمل العناوين والوصف والبيانات المنظمة والروابط الداخلية وملفات الزحف.</p><a href="#contact" data-page="contact" class="inline-block mt-6 text-blue-500 font-bold">ابدأ مشروعك ←</a></article><article class="reveal p-7 rounded-3xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 hover:-translate-y-1 transition-transform"><div class="w-14 h-14 rounded-2xl bg-blue-500/10 text-blue-500 flex items-center justify-center text-2xl"><i class="fa-solid fa-gauge-high"></i></div><h3 class="text-xl font-black mt-6">تحسين الأداء</h3><p class="mt-3 text-sm text-slate-600 dark:text-slate-400 leading-8">تقليل الموارد غير الضرورية وتحسين الصور والتحميل وتجربة الاستخدام على الأجهزة المحمولة.</p><a href="#contact" data-page="contact" class="inline-block mt-6 text-blue-500 font-bold">ابدأ مشروعك ←</a></article><article class="reveal p-7 rounded-3xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 hover:-translate-y-1 transition-transform"><div class="w-14 h-14 rounded-2xl bg-blue-500/10 text-blue-500 flex items-center justify-center text-2xl"><i class="fa-solid fa-shield-halved"></i></div><h3 class="text-xl font-black mt-6">الأمان والصيانة</h3><p class="mt-3 text-sm text-slate-600 dark:text-slate-400 leading-8">ممارسات حماية أساسية، تحديثات، نسخ احتياطية ومراجعات دورية حسب طبيعة المشروع.</p><a href="#contact" data-page="contact" class="inline-block mt-6 text-blue-500 font-bold">ابدأ مشروعك ←</a></article>
+</div></div>
+</section>
 
-  <main class="flex-grow">
-    <!-- HOME SECTION -->
-    <section id="home" class="page-section active">
-      <!-- Hero Section -->
-      <div class="relative overflow-hidden py-20 lg:py-28 border-b border-slate-200 dark:border-slate-800">
-        <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-blue-100/50 via-slate-50 to-slate-50 dark:from-blue-900/40 dark:via-slate-950 dark:to-slate-950 -z-10"></div>
-        <div class="max-w-5xl mx-auto px-4 text-center">
-          <span class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-blue-50 dark:bg-blue-500/10 border border-blue-200 dark:border-blue-500/20 text-blue-600 dark:text-blue-400 text-sm font-semibold mb-6">
-            <i class="fas fa-rocket"></i> الحل المتكامل لتطوير حضورك الرقمي
-          </span>
-          <h1 class="text-4xl sm:text-6xl font-extrabold text-slate-900 dark:text-white leading-tight mb-8">
-            نوفر لك <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-emerald-500 dark:from-blue-400 dark:to-emerald-400">مواكبة برمجية متكاملة</span> للتفوق في السوق الرقمي
-          </h1>
-          <p class="text-lg sm:text-xl text-slate-600 dark:text-slate-300 max-w-4xl mx-auto mb-10 leading-relaxed">
-            في <strong class="text-blue-600 dark:text-blue-400">Larache XYZ</strong>، لا نقدم مجرد تصميم صفحات، بل نصمم تجارب مستخدم مخصصة تزيد من مبيعاتك وأرباحك. نبني مواقعك بأحدث التقنيات البرمجية التي تحترم معايير جودة <a href="https://www.w3.org/" target="_blank" rel="noopener noreferrer" class="text-blue-500 underline hover:text-blue-400">منظمة Web Standards (W3C)</a> وتلتزم بأحدث تلميحات <a href="https://developers.google.com/search" target="_blank" rel="noopener noreferrer" class="text-blue-500 underline hover:text-blue-400">Google Search Central</a> لتضمن تصدر موقعك نتائج البحث الأولى بسرعة وثبات.
-          </p>
-          <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <a href="https://wa.me/212783539816" target="_blank" rel="noopener" class="w-full sm:w-auto flex items-center justify-center gap-3 bg-blue-600 hover:bg-blue-500 text-white text-lg font-bold px-8 py-4 rounded-xl shadow-xl shadow-blue-600/30 transition-all">
-              <i class="fab fa-whatsapp text-xl"></i>
-              <span>استشارة مجانية عبر الواتساب</span>
-            </a>
-            <button onclick="showSection('services')" class="w-full sm:w-auto flex items-center justify-center gap-3 bg-white dark:bg-slate-900 hover:bg-slate-100 dark:hover:bg-slate-800 border border-slate-300 dark:border-slate-700 text-slate-700 dark:text-slate-200 text-lg font-bold px-8 py-4 rounded-xl transition-all shadow-sm">
-              <i class="fas fa-th-list"></i>
-              <span>استكشف كافة الخدمات</span>
-            </button>
-          </div>
-        </div>
-      </div>
+<section id="about" class="page py-20">
+<div class="max-w-6xl mx-auto px-4 sm:px-6">
+<div class="grid lg:grid-cols-2 gap-10 items-center">
+<div class="reveal"><span class="text-emerald-500 font-black">لماذا Larache XYZ؟</span><h2 class="text-3xl md:text-5xl font-black mt-3">نبني الموقع حول هدفك، لا حول القالب</h2><p class="mt-6 text-slate-600 dark:text-slate-400 leading-9">نركز على البساطة، السرعة، سهولة الاستخدام وقابلية التطوير. والنتيجة موقع يمكن لعميلك فهمه واستخدامه بسهولة، ويمكنك تطويره مع نمو نشاطك.</p>
+<div class="grid sm:grid-cols-2 gap-4 mt-8"><div class="flex gap-3 items-center p-4 rounded-xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800"><i class="fa-solid fa-circle-check text-emerald-500"></i><b>تصميم متجاوب</b></div><div class="flex gap-3 items-center p-4 rounded-xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800"><i class="fa-solid fa-circle-check text-emerald-500"></i><b>بنية HTML دلالية</b></div><div class="flex gap-3 items-center p-4 rounded-xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800"><i class="fa-solid fa-circle-check text-emerald-500"></i><b>أساس SEO قوي</b></div><div class="flex gap-3 items-center p-4 rounded-xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800"><i class="fa-solid fa-circle-check text-emerald-500"></i><b>تجربة مستخدم واضحة</b></div><div class="flex gap-3 items-center p-4 rounded-xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800"><i class="fa-solid fa-circle-check text-emerald-500"></i><b>كود منظم قابل للتطوير</b></div><div class="flex gap-3 items-center p-4 rounded-xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800"><i class="fa-solid fa-circle-check text-emerald-500"></i><b>دعم باللغة العربية</b></div></div></div>
+<div class="reveal rounded-3xl p-8 bg-slate-900 text-white shadow-2xl"><div class="flex items-center gap-4"><img src="LARACHE%20LOGO.webp" alt="" class="w-16 h-16 rounded-2xl"><div><div class="text-2xl font-black">LARACHE.XYZ</div><div class="text-slate-400">Digital Solutions</div></div></div><div class="grid grid-cols-2 gap-4 mt-8"><div class="p-5 rounded-2xl bg-white/5"><b class="text-2xl">SEO</b><p class="text-sm text-slate-400 mt-1">جاهزية تقنية</p></div><div class="p-5 rounded-2xl bg-white/5"><b class="text-2xl">UX</b><p class="text-sm text-slate-400 mt-1">تجربة أبسط</p></div><div class="p-5 rounded-2xl bg-white/5"><b class="text-2xl">Fast</b><p class="text-sm text-slate-400 mt-1">أداء أفضل</p></div><div class="p-5 rounded-2xl bg-white/5"><b class="text-2xl">RTL</b><p class="text-sm text-slate-400 mt-1">دعم العربية</p></div></div></div>
+</div></div>
+</section>
 
-      <!-- Features & Value Proposition Section -->
-      <div class="py-16 bg-slate-100/60 dark:bg-slate-900/50">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div class="text-center max-w-3xl mx-auto mb-12">
-            <h2 class="text-3xl font-bold text-slate-900 dark:text-white mb-4">لماذا يختار العملاء Larache XYZ؟</h2>
-            <p class="text-slate-600 dark:text-slate-400">نلتزم بتطبيق المعايير البرمجية والتسويقية العالمية لضمان تحقيق أعلى عائد على الاستثمار (ROI).</p>
-          </div>
-          <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div class="bg-white dark:bg-slate-900 p-8 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-sm hover:border-blue-500 transition-colors">
-              <div class="w-12 h-12 bg-blue-500/10 text-blue-500 dark:text-blue-400 rounded-xl flex items-center justify-center text-xl mb-4"><i class="fas fa-tachometer-alt"></i></div>
-              <h3 class="text-xl font-bold text-slate-900 dark:text-white mb-2">سرعة استجابة فائقة</h3>
-              <p class="text-slate-600 dark:text-slate-400 text-sm leading-relaxed">نضمن سرعة فتح الصفحة خلال أقل من ثانية واحدة بالاعتماد على كود نظيف، مما يقلل معدل الارتداد (Bounce Rate) ويعزز تجربة الزائر.</p>
-            </div>
-            <div class="bg-white dark:bg-slate-900 p-8 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-sm hover:border-emerald-500 transition-colors">
-              <div class="w-12 h-12 bg-emerald-500/10 text-emerald-500 dark:text-emerald-400 rounded-xl flex items-center justify-center text-xl mb-4"><i class="fas fa-shield-alt"></i></div>
-              <h3 class="text-xl font-bold text-slate-900 dark:text-white mb-2">حماية وتشفير عالي</h3>
-              <p class="text-slate-600 dark:text-slate-400 text-sm leading-relaxed">تجهيز المواقع بشهادات الأمان SSL وحمايتها من هجمات الثغرات البرمجية لضمان سلامة بياناتك وبيانات عملائك بشكل كامل.</p>
-            </div>
-            <div class="bg-white dark:bg-slate-900 p-8 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-sm hover:border-purple-500 transition-colors">
-              <div class="w-12 h-12 bg-purple-500/10 text-purple-500 dark:text-purple-400 rounded-xl flex items-center justify-center text-xl mb-4"><i class="fas fa-chart-line"></i></div>
-              <h3 class="text-xl font-bold text-slate-900 dark:text-white mb-2">أرشفة وتهيئة SEO متقدمة</h3>
-              <p class="text-slate-600 dark:text-slate-400 text-sm leading-relaxed">إعداد الميتا تاجز، الوسوم الهيكلية Schema.org، وخرائط الموقع XML تلقائياً لضمان تعاطي محركات البحث مع محتواك باحترافية.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+<section id="faq" class="page py-20">
+<div class="max-w-4xl mx-auto px-4">
+<div class="text-center"><span class="text-purple-500 font-black">FAQ</span><h2 class="text-3xl md:text-5xl font-black mt-2">الأسئلة الشائعة</h2></div>
+<div class="mt-10 space-y-3"><details class="reveal group p-5 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800"><summary class="cursor-pointer font-black">كم يستغرق إنشاء الموقع؟<span class="float-left text-blue-500">+</span></summary><p class="pt-4 text-sm text-slate-600 dark:text-slate-400 leading-8">تختلف المدة حسب عدد الصفحات والوظائف المطلوبة. بعد معرفة المتطلبات يمكن تحديد نطاق زمني واقعي للمشروع.</p></details><details class="reveal group p-5 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800"><summary class="cursor-pointer font-black">هل الموقع يعمل على الهاتف؟<span class="float-left text-blue-500">+</span></summary><p class="pt-4 text-sm text-slate-600 dark:text-slate-400 leading-8">نعم، يتم اعتماد تصميم متجاوب يراعي الشاشات الصغيرة والمتوسطة والكبيرة.</p></details><details class="reveal group p-5 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800"><summary class="cursor-pointer font-black">هل يمكن تحسين الموقع لمحركات البحث؟<span class="float-left text-blue-500">+</span></summary><p class="pt-4 text-sm text-slate-600 dark:text-slate-400 leading-8">نعم، نجهز الأساس التقني للـSEO، مع إمكانية إضافة خدمات تحسين المحتوى والاستراتيجية حسب الحاجة.</p></details><details class="reveal group p-5 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800"><summary class="cursor-pointer font-black">هل يمكن تطوير الموقع لاحقاً؟<span class="float-left text-blue-500">+</span></summary><p class="pt-4 text-sm text-slate-600 dark:text-slate-400 leading-8">نعم. الهدف من البنية المنظمة هو تسهيل إضافة صفحات وخصائص وخدمات جديدة مستقبلاً.</p></details></div>
+</div>
+</section>
 
-    <!-- SERVICES SECTION -->
-    <section id="services" class="page-section py-16">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="text-center max-w-3xl mx-auto mb-16">
-          <h2 class="text-3xl font-extrabold text-slate-900 dark:text-white mb-4">خدماتنا وتخصصاتنا البرمجية</h2>
-          <p class="text-slate-600 dark:text-slate-300 text-base leading-relaxed">
-            نحن نقدم مجموعة شاملة من خدمات تطوير وتصميم المواقع الإلكترونية المخصصة للشركات، الأفراد، والمتاجر. نعتمد على أحدث التقنيات القياسية لتوفير حلول رقمية تدعم نمو تجارتك ومؤسستك بشكل مستدام.
-          </p>
-        </div>
+<section id="contact" class="page py-20">
+<div class="max-w-5xl mx-auto px-4">
+<div class="rounded-3xl bg-gradient-to-br from-blue-600 to-indigo-700 text-white p-8 md:p-14 text-center shadow-2xl">
+<span class="font-bold text-blue-100">جاهز للخطوة التالية؟</span><h2 class="text-3xl md:text-5xl font-black mt-3">لنحوّل فكرتك إلى مشروع رقمي</h2><p class="mt-5 text-blue-100 leading-8 max-w-2xl mx-auto">أرسل تفاصيل مشروعك وسنساعدك على تحديد الحل الأنسب، من صفحة هبوط بسيطة إلى منصة أو متجر متكامل.</p>
+<div class="flex flex-col sm:flex-row justify-center gap-4 mt-9">
+<a href="https://wa.me/212783539816" target="_blank" rel="noopener noreferrer" class="bg-white text-blue-700 px-7 py-4 rounded-xl font-black"><i class="fa-brands fa-whatsapp ml-2"></i>واتساب</a>
+<a href="mailto:info@larache.xyz" class="bg-white/10 border border-white/30 px-7 py-4 rounded-xl font-black">info@larache.xyz</a>
+</div><p class="mt-7 text-sm text-blue-100">+212 7 83 53 98 16</p>
+</div></div>
+</section>
+</main>
 
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <!-- Service 1 -->
-          <div class="bg-white dark:bg-slate-900 rounded-2xl p-8 border border-slate-200 dark:border-slate-800 flex flex-col justify-between shadow-sm hover:shadow-lg transition-shadow">
-            <div>
-              <div class="w-14 h-14 bg-blue-500/10 text-blue-600 dark:text-blue-400 rounded-2xl flex items-center justify-center text-2xl mb-6">
-                <i class="fas fa-bullhorn"></i>
-              </div>
-              <h3 class="text-2xl font-bold text-slate-900 dark:text-white mb-3">صفحات الهبوط (Landing Pages)</h3>
-              <p class="text-slate-600 dark:text-slate-400 text-sm mb-6 leading-relaxed">
-                تصميم صفحات هبوط موجهة خصيصاً للحملات الإعلانية (Google Ads / Facebook Ads). نركز على تحسين معدل التحويل (CRO) بجعل تصميم الصفحة جذاباً، سريعاً، وواضحاً ليدفع الزائر لاتخاذ القرار المباشر (الشراء، الاتصال، أو التسجيل).
-              </p>
-              <h4 class="text-xs font-bold text-slate-400 uppercase tracking-wider mb-3">مميزات الخدمة:</h4>
-              <ul class="space-y-3 mb-8 text-slate-700 dark:text-slate-300 text-sm">
-                <li class="flex items-center gap-2"><i class="fas fa-check-circle text-blue-500"></i> أزرار اتخاذ إجراء CTA واضحة ومباشرة</li>
-                <li class="flex items-center gap-2"><i class="fas fa-check-circle text-blue-500"></i> توافق تام مع الهواتف الذكية والأجهزة اللوحية</li>
-                <li class="flex items-center gap-2"><i class="fas fa-check-circle text-blue-500"></i> سرعة تحميلائقة تمنع ضياع النقرات الإعلانية</li>
-                <li class="flex items-center gap-2"><i class="fas fa-check-circle text-blue-500"></i> ربط مباشر مع الواتساب ونماذج التواصل</li>
-              </ul>
-            </div>
-            <a href="https://wa.me/212783539816" target="_blank" rel="noopener" class="w-full text-center bg-slate-100 hover:bg-slate-200 dark:bg-slate-800 dark:hover:bg-slate-700 text-slate-900 dark:text-white font-bold py-3 rounded-xl transition-all">اطلب هذه الخدمة</a>
-          </div>
-
-          <!-- Service 2 (Featured) -->
-          <div class="bg-white dark:bg-slate-900 rounded-2xl p-8 border-2 border-blue-500 flex flex-col justify-between relative shadow-md">
-            <span class="absolute -top-4 right-1/2 translate-x-1/2 bg-blue-600 text-white text-xs font-bold px-4 py-1.5 rounded-full shadow-md">الأكثر طلباً واحترافية</span>
-            <div>
-              <div class="w-14 h-14 bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 rounded-2xl flex items-center justify-center text-2xl mb-6">
-                <i class="fas fa-building"></i>
-              </div>
-              <h3 class="text-2xl font-bold text-slate-900 dark:text-white mb-3">مواقع الشركات والمؤسسات</h3>
-              <p class="text-slate-600 dark:text-slate-400 text-sm mb-6 leading-relaxed">
-                مواكبة برمجية متكاملة للمؤسسات التي تسعى لبناء سمعة رقمية موثوقة. نقوم بتطوير موقع متعدد الصفحات يعرض خدماتك، أعمالك، ورؤية عملك بأسلوب يعكس احترافيتك ويجذب الشركاء والعملاء.
-              </p>
-              <h4 class="text-xs font-bold text-slate-400 uppercase tracking-wider mb-3">مميزات الخدمة:</h4>
-              <ul class="space-y-3 mb-8 text-slate-700 dark:text-slate-300 text-sm">
-                <li class="flex items-center gap-2"><i class="fas fa-check-circle text-blue-500"></i> بناء هيكلية صفحات متكاملة (عنا، خدماتنا، معرض الأعمال...)</li>
-                <li class="flex items-center gap-2"><i class="fas fa-check-circle text-blue-500"></i> إعداد SEO معمق وموافق لمعايير محركات البحث</li>
-                <li class="flex items-center gap-2"><i class="fas fa-check-circle text-blue-500"></i> لوحة تحكم سهلة لإدارة وتحديث البيانات</li>
-                <li class="flex items-center gap-2"><i class="fas fa-check-circle text-blue-500"></i> دعم البريد الإلكتروني المهني (@yourdomain.com)</li>
-              </ul>
-            </div>
-            <a href="https://wa.me/212783539816" target="_blank" rel="noopener" class="w-full text-center bg-blue-600 hover:bg-blue-500 text-white font-bold py-3 rounded-xl transition-all shadow-lg shadow-blue-600/20">اطلب هذه الخدمة</a>
-          </div>
-
-          <!-- Service 3 -->
-          <div class="bg-white dark:bg-slate-900 rounded-2xl p-8 border border-slate-200 dark:border-slate-800 flex flex-col justify-between shadow-sm hover:shadow-lg transition-shadow">
-            <div>
-              <div class="w-14 h-14 bg-purple-500/10 text-purple-600 dark:text-purple-400 rounded-2xl flex items-center justify-center text-2xl mb-6">
-                <i class="fas fa-shopping-cart"></i>
-              </div>
-              <h3 class="text-2xl font-bold text-slate-900 dark:text-white mb-3">المتاجر الإلكترونية المتكاملة</h3>
-              <p class="text-slate-600 dark:text-slate-400 text-sm mb-6 leading-relaxed">
-                إنشاء منصات تجارة إلكترونية متطورة مجهزة لبدء البيع فوراً. نوفر تجربة شراء سلسة للغاية للزبون وتسهيلات لإدارة المخزون، الطلبات، وبوابات الدفع الإلكتروني أو الدفع عند الاستلام (COD).
-              </p>
-              <h4 class="text-xs font-bold text-slate-400 uppercase tracking-wider mb-3">مميزات الخدمة:</h4>
-              <ul class="space-y-3 mb-8 text-slate-700 dark:text-slate-300 text-sm">
-                <li class="flex items-center gap-2"><i class="fas fa-check-circle text-blue-500"></i> عرض المنتجات بسلاسة مع تصنيفات وفلاتر بحث</li>
-                <li class="flex items-center gap-2"><i class="fas fa-check-circle text-blue-500"></i> ربط وسائل الدفع والشحن المحلية والدولية</li>
-                <li class="flex items-center gap-2"><i class="fas fa-check-circle text-blue-500"></i> حماية متقدمة لسلة الشراء والبيانات المالية</li>
-                <li class="flex items-center gap-2"><i class="fas fa-check-circle text-blue-500"></i> تصميم سريع ومريح للتصفح عبر الهاتف</li>
-              </ul>
-            </div>
-            <a href="https://wa.me/212783539816" target="_blank" rel="noopener" class="w-full text-center bg-slate-100 hover:bg-slate-200 dark:bg-slate-800 dark:hover:bg-slate-700 text-slate-900 dark:text-white font-bold py-3 rounded-xl transition-all">اطلب هذه الخدمة</a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ABOUT SECTION -->
-    <section id="about" class="page-section py-16">
-      <div class="max-w-4xl mx-auto px-4">
-        <div class="bg-white dark:bg-slate-900 p-8 sm:p-12 rounded-3xl border border-slate-200 dark:border-slate-800 shadow-sm">
-          <h2 class="text-3xl font-bold text-slate-900 dark:text-white mb-6 border-b border-slate-200 dark:border-slate-800 pb-4">من نحن</h2>
-          <div class="text-slate-700 dark:text-slate-300 space-y-4 leading-relaxed">
-            <p>
-              مرحباً بك في <strong class="text-blue-600 dark:text-blue-400">Larache XYZ</strong>، وجهتك المتخصصة في تقديم خدمات تصميم وتطوير المواقع الإلكترونية الحديثة.
-            </p>
-            <p>
-              نحن نؤمن بأن الموقع الإلكتروني ليس مجرد صفحة على الإنترنت، بل هو الواجهة الرئيسية لعرض هويتك وتنمية أعمالك. نعمل بشغف لبناء حلول برمجة سريعة، متجاوبة مع كافة الشاشات، ومُهيأة وفق أحدث معايير محركات البحث (SEO).
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- CONTACT SECTION -->
-    <section id="contact" class="page-section py-16">
-      <div class="max-w-4xl mx-auto px-4">
-        <div class="bg-white dark:bg-slate-900 p-8 sm:p-12 rounded-3xl border border-slate-200 dark:border-slate-800 text-center shadow-sm">
-          <h2 class="text-3xl font-bold text-slate-900 dark:text-white mb-4">اتصل بنا</h2>
-          <p class="text-slate-600 dark:text-slate-400 mb-8">يسعدنا التواصل معك ومناقشة متطلبات مشروعك لتوفير الحل البرمجي الأنسب.</p>
-          
-          <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-2xl mx-auto mb-8">
-            <a href="https://wa.me/212783539816" target="_blank" rel="noopener" class="bg-emerald-50 dark:bg-emerald-950/40 border border-emerald-200 dark:border-emerald-500/30 p-6 rounded-2xl flex items-center justify-center gap-4 hover:border-emerald-500 transition-colors">
-              <i class="fab fa-whatsapp text-3xl text-emerald-600 dark:text-emerald-500"></i>
-              <div class="text-right">
-                <span class="block text-xs text-slate-500 dark:text-slate-400">رقم الواتساب</span>
-                <span class="text-lg font-bold text-slate-900 dark:text-white ltr-text">+212 7 83 53 98 16</span>
-              </div>
-            </a>
-
-            <a href="mailto:info@larache.xyz" class="bg-blue-50 dark:bg-blue-950/40 border border-blue-200 dark:border-blue-500/30 p-6 rounded-2xl flex items-center justify-center gap-4 hover:border-blue-500 transition-colors">
-              <i class="fas fa-envelope text-3xl text-blue-600 dark:text-blue-400"></i>
-              <div class="text-right">
-                <span class="block text-xs text-slate-500 dark:text-slate-400">البريد الإلكتروني</span>
-                <span class="text-lg font-bold text-slate-900 dark:text-white">info@larache.xyz</span>
-              </div>
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- TERMS OF SERVICE SECTION -->
-    <section id="terms" class="page-section py-16">
-      <div class="max-w-4xl mx-auto px-4">
-        <div class="bg-white dark:bg-slate-900 p-8 sm:p-12 rounded-3xl border border-slate-200 dark:border-slate-800 shadow-sm">
-          <h2 class="text-3xl font-bold text-slate-900 dark:text-white mb-6 border-b border-slate-200 dark:border-slate-800 pb-4">شروط الاستخدام</h2>
-          <div class="text-slate-700 dark:text-slate-300 space-y-4 text-sm leading-relaxed">
-            <h3 class="text-lg font-semibold text-slate-900 dark:text-white">1. القبول بالشروط</h3>
-            <p>باستخدامك لموقعنا أو طلبك لأي من خدمات تطوير المواقع، فإنك توافق على الالتزام بشروط الاستخدام الموضحة هنا.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- PRIVACY POLICY SECTION -->
-    <section id="privacy" class="page-section py-16">
-      <div class="max-w-4xl mx-auto px-4">
-        <div class="bg-white dark:bg-slate-900 p-8 sm:p-12 rounded-3xl border border-slate-200 dark:border-slate-800 shadow-sm">
-          <h2 class="text-3xl font-bold text-slate-900 dark:text-white mb-6 border-b border-slate-200 dark:border-slate-800 pb-4">سياسة الخصوصية</h2>
-          <div class="text-slate-700 dark:text-slate-300 space-y-4 text-sm leading-relaxed">
-            <h3 class="text-lg font-semibold text-slate-900 dark:text-white">1. جمع المعلومات</h3>
-            <p>نحن نجمع البيانات الشخصية (مثل الاسم، رقم الواتساب، البريد الإلكتروني) التي تقدمها لنا طوعاً عند التواصل.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <!-- Social Media Bar (Pre-Footer Area) -->
-  <section class="bg-slate-100 dark:bg-slate-900/80 border-t border-slate-200 dark:border-slate-800 py-8 transition-colors duration-300">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-      <h3 class="text-sm font-semibold text-slate-500 dark:text-slate-400 mb-4 tracking-wider uppercase">تابعنا على شبكات التواصل الاجتماعي</h3>
-      <div class="flex items-center justify-center gap-4">
-        <a href="https://github.com/gpldroid" target="_blank" rel="noopener noreferrer" aria-label="GitHub" class="w-12 h-12 rounded-full bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-300 hover:text-white hover:bg-slate-900 dark:hover:bg-slate-700 hover:border-slate-900 flex items-center justify-center text-xl transition-all hover:scale-110 shadow-sm">
-          <i class="fab fa-github"></i>
-        </a>
-        <a href="https://m.facebook.com/61577188775609" target="_blank" rel="noopener noreferrer" aria-label="Facebook" class="w-12 h-12 rounded-full bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-blue-600 dark:text-blue-400 hover:text-white hover:bg-blue-600 hover:border-blue-600 flex items-center justify-center text-xl transition-all hover:scale-110 shadow-sm">
-          <i class="fab fa-facebook-f"></i>
-        </a>
-        <a href="https://www.instagram.com/larache_forum" target="_blank" rel="noopener noreferrer" aria-label="Instagram" class="w-12 h-12 rounded-full bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-pink-600 dark:text-pink-400 hover:text-white hover:bg-gradient-to-tr hover:from-amber-500 hover:via-pink-500 hover:to-purple-600 hover:border-transparent flex items-center justify-center text-xl transition-all hover:scale-110 shadow-sm">
-          <i class="fab fa-instagram"></i>
-        </a>
-        <a href="https://x.com/laraforum" target="_blank" rel="noopener noreferrer" aria-label="Twitter" class="w-12 h-12 rounded-full bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-sky-500 dark:text-sky-400 hover:text-white hover:bg-sky-500 hover:border-sky-500 flex items-center justify-center text-xl transition-all hover:scale-110 shadow-sm">
-          <i class="fab fa-twitter"></i>
-        </a>
-      </div>
-    </div>
-  </section>
-
-  <!-- Footer -->
-  <footer class="bg-white dark:bg-slate-900 border-t border-slate-200 dark:border-slate-800 py-10 transition-colors duration-300">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="flex flex-col md:flex-row items-center justify-between gap-6 mb-8 border-b border-slate-200 dark:border-slate-800 pb-6">
-        <div class="flex items-center gap-3">
-          <div class="w-8 h-8 rounded-lg bg-blue-600 flex items-center justify-center text-white font-bold">L</div>
-          <span class="text-xl font-bold text-slate-900 dark:text-white">LARACHE<span class="text-blue-500">.XYZ</span></span>
-        </div>
-        <div class="flex flex-wrap justify-center gap-6 text-xs text-slate-600 dark:text-slate-400">
-          <button onclick="showSection('home')" class="hover:text-slate-900 dark:hover:text-white transition-colors">الرئيسية</button>
-          <button onclick="showSection('services')" class="hover:text-slate-900 dark:hover:text-white transition-colors">خدماتنا</button>
-          <button onclick="showSection('about')" class="hover:text-slate-900 dark:hover:text-white transition-colors">من نحن</button>
-          <button onclick="showSection('contact')" class="hover:text-slate-900 dark:hover:text-white transition-colors">اتصل بنا</button>
-          <button onclick="showSection('terms')" class="hover:text-slate-900 dark:hover:text-white transition-colors">شروط الاستخدام</button>
-          <button onclick="showSection('privacy')" class="hover:text-slate-900 dark:hover:text-white transition-colors">سياسة الخصوصية</button>
-        </div>
-      </div>
-      <div class="text-center text-xs text-slate-500 dark:text-slate-500">
-        <p>© 2026 عماد الدين لمراني - جميع الحقوق محفوظة.</p>
-      </div>
-    </div>
-  </footer>
-
-  <script>
-    // Section Switcher Logic
-    function showSection(sectionId) {
-      document.querySelectorAll('.page-section').forEach(section => {
-        section.classList.remove('active');
-      });
-      const activeSection = document.getElementById(sectionId);
-      if (activeSection) {
-        activeSection.classList.add('active');
-        window.scrollTo({ top: 0, behavior: 'smooth' });
-      }
-    }
-
-    // Light/Dark Theme Switching Logic
-    function toggleTheme() {
-      const htmlEl = document.documentElement;
-      const themeIcon = document.getElementById('themeIcon');
-      const themeText = document.getElementById('themeText');
-
-      if (htmlEl.classList.contains('dark')) {
-        htmlEl.classList.remove('dark');
-        themeIcon.className = 'fas fa-sun text-amber-500 text-base';
-        themeText.textContent = 'النمط النهاري';
-        localStorage.setItem('theme', 'light');
-      } else {
-        htmlEl.classList.add('dark');
-        themeIcon.className = 'fas fa-moon text-amber-400 text-base';
-        themeText.textContent = 'النمط الليلي';
-        localStorage.setItem('theme', 'dark');
-      }
-    }
-
-    // Persistent Theme Preference Initialization
-    (function initTheme() {
-      const savedTheme = localStorage.getItem('theme');
-      const themeIcon = document.getElementById('themeIcon');
-      const themeText = document.getElementById('themeText');
-
-      if (savedTheme === 'light') {
-        document.documentElement.classList.remove('dark');
-        if(themeIcon && themeText) {
-          themeIcon.className = 'fas fa-sun text-amber-500 text-base';
-          themeText.textContent = 'النمط النهاري';
-        }
-      } else {
-        document.documentElement.classList.add('dark');
-        if(themeIcon && themeText) {
-          themeIcon.className = 'fas fa-moon text-amber-400 text-base';
-          themeText.textContent = 'النمط الليلي';
-        }
-      }
-    })();
-  </script>
-</body>
-</html>
+<footer class="border-t border-slate-200 dark:border-slate-800 py-10">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 flex flex-col md:flex-row gap-5 items-center justify-between">
+<div class="font-black">LARACHE<span class="text-blue-500">.XYZ</span></div>
+<div class="flex gap-5 text-sm"><a href="https://github.com/gpldroid" target="_blank" rel="noopener">GitHub</a><a href="https://www.instagram.com/larache_forum" target="_blank" rel="noopener">Instagram</a><a href="https://x.com/laraforum" target="_blank" rel="noopener">X</a></div>
+<p class="text-xs text-slate-500">© 2026 عماد الدين لمراني — جميع الحقوق محفوظة.</p>
+</div>
+</footer>
+<script>
+const root=document.documentElement, saved=localStorage.getItem('theme');
+if(saved==='light') root.classList.remove('dark'); else root.classList.add('dark');
+const theme=document.getElementById('theme'), menu=document.getElementById('menu'), mobile=document.getElementById('mobileNav');
+function icon(){theme.innerHTML=root.classList.contains('dark')?'<i class="fa-solid fa-sun"></i>':'<i class="fa-solid fa-moon"></i>'} icon();
+theme.onclick=()=>{root.classList.toggle('dark');localStorage.setItem('theme',root.classList.contains('dark')?'dark':'light');icon()};
+menu.onclick=()=>mobile.classList.toggle('hidden');
+const pages=[...document.querySelectorAll('.page')];
+function show(id){pages.forEach(p=>p.classList.toggle('active',p.id===id));document.querySelectorAll('[data-page]').forEach(a=>a.classList.toggle('text-blue-500',a.dataset.page===id));mobile.classList.add('hidden');window.scrollTo({top:0,behavior:'smooth'});document.title=id==='home'?'Larache XYZ | تصميم وتطوير المواقع والمتاجر':('Larache XYZ | '+({services:'الخدمات',about:'لماذا نحن',faq:'الأسئلة الشائعة',contact:'اتصل بنا'}[id]||''))}
+document.querySelectorAll('[data-page]').forEach(a=>a.addEventListener('click',e=>{e.preventDefault();show(a.dataset.page);history.replaceState(null,'','#'+a.dataset.page)}));
+show(location.hash.slice(1)||'home');
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)e.target.classList.add('show')}),{threshold:.12});
+document.querySelectorAll('.reveal').forEach(e=>io.observe(e));
+</script>
+</body></html>
